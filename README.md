@@ -20,3 +20,7 @@ rather than just test files.  If you'd like updates, please follow this reposito
 2. Create an `es-lint` rule that `prepareBaseImage` must be false to prevent merges 
    that would create false positives.
 3. Make it possible for tests and true images to live in sub-folders together.
+4. Fork the comparison software/maintain it?
+5. Import allure support
+6. Import puppeteer support
+7. Add tests
