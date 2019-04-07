@@ -1,0 +1,25 @@
+{
+  "name": "visual-lightning",
+  "version": "1.0.0",
+  "description": "Visual Regression Lightning Talk Demo",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "codeceptjs": "^2.0.8",
+    "codeceptjs-resemblehelper": "^1.5.0",
+    "puppeteer": "^1.14.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loren138/visual-lightning.git"
+  },
+  "author": "Loren",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/loren138/visual-lightning/issues"
+  },
+  "homepage": "https://github.com/loren138/visual-lightning#readme"
+}
