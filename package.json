@@ -10,7 +10,7 @@
     "puppeteer": "^1.14.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "codeceptjs run"
   },
   "repository": {
     "type": "git",
