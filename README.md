@@ -8,7 +8,7 @@ I am working on a longer version of the talk.  It will contain a complete sample
 rather than just test files.  If you'd like updates, please follow this repository.
 
 ## Running Tests
-1. You will need JDK installed for selenium to work
+1. You will need JDK installed for selenium to work (`brew cask install java`)
 2. Run `npm install`
 3. Run `npm run selenium` (Leave this running while running tests)
 4. Run `npm run test`
