@@ -1,17 +1,20 @@
 Feature('Contact Form');
 
+const subfolder = "contact/";
+const outputFolder = "output/";
+
 Scenario('Initial Form', (I) => {
-    const imageName = "contact-form.png";
+    const imageName = subfolder + "contact-form.png";
     I.amOnPage("/contact");
     // Make sure the page has loaded
     I.waitForElement("#sendBtn");
 
-    I.saveScreenshot(imageName);
+    I.saveScreenshot(outputFolder + imageName);
     I.seeVisualDiff(imageName, { tolerance: 2, prepareBaseImage: false });
 });
 
 Scenario('Empty Form Errors', (I) => {
-    const imageName = "contact-form-invalid.png";
+    const imageName = subfolder + "contact-form-invalid.png";
     I.amOnPage("/contact");
     // Make sure the page has loaded
     I.waitForElement("#sendBtn");
@@ -19,6 +22,6 @@ Scenario('Empty Form Errors', (I) => {
     // Make sure at least one error message has loaded
     I.waitForElement(".form-group.has-feedback.has-error");
     I.waitForText("Please supply your first name");
-    I.saveScreenshot(imageName);
+    I.saveScreenshot(outputFolder + imageName);
     I.seeVisualDiff(imageName, { tolerance: 2, prepareBaseImage: false });
 });
