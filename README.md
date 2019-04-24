@@ -2,7 +2,7 @@
 
 This repository is the code sample to go with my lightning talk on Visual Regression testing.
 
-The talk and slides are available at: **_ADD URL HERE_**
+The talk is available at: https://vimeo.com/328997531
 
 I am working on a longer version of the talk.  It will contain a complete sample project
 rather than just test files.  If you'd like updates, please follow this repository.
